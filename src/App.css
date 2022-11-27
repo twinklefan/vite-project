@@ -1,0 +1,96 @@
+
+#root {
+  background: linear-gradient(45deg, #E86AFF, #8A65E8, #658EFF, #65CEE8, #5df5be);
+  /* background: linear-gradient(125deg, #FFFFFF 0%, #000000 100%), linear-gradient(200deg, #FFD9E8 0%, #FFD9E8 50%, #DE95BA calc(50% + 1px), #DE95BA 60%, #7F4A88 calc(60% + 1px), #7F4A88 75%, #4A266A calc(75% + 1px), #4A266A 100%), linear-gradient(113deg, #FFD9E8 0%, #FFD9E8 40%, #DE95BA calc(40% + 1px), #DE95BA 50%, #7F4A88 calc(50% + 1px), #7F4A88 70%, #4A266A calc(70% + 1px), #4A266A 100%);
+  background-blend-mode: overlay, overlay, normal; */
+  background-size: 800% 800%;
+  animation: background 10s ease infinite;
+  -webkit-animation: background 10s ease infinite;
+  -moz-animation: background 10s ease infinite;
+  /* display: inline; */
+  /* height: 100%; */
+}
+@keyframes background {
+  0% {
+    background-position: 0% 50%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@-webkit-keyframes background {
+  0% {
+    background-position: 0% 50%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@-moz-keyframes background {
+  0% {
+    background-position: 0% 50%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 50%
+  }
+}
+.card-container {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: rgb(255, 255, 255, 0.7);
+  /* width: 100px; */
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 30%;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: 'Fascinate';
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: 'Dangrek';
+  margin: 5px;
+}
+b {
+  font-size: larger;
+  font-weight: 900;
+
+}
+/* 
+
+.card-title {
+  
+
+}
+
+.card-info {
+  
+}
+*/
