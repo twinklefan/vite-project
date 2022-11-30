@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import './App.css'
-import Card from './Card.jsx';
-import { data } from './data'
+import 'App.css'
+import Card from 'Card.jsx';
+import { data } from 'data'
 
 export default function App() {
   const cards = data.map(item => {
