@@ -356,66 +356,6 @@ export const data = [
         clas: "Lunch"
     },
     {
-        id: 50,
-        content: "Pink hair",
-        name: "Iriz",
-        clas: "Lunch"
-    },
-    {
-        id: 51,
-        content: "yaaaassssss queeen",
-        name: "Quail, Chole",
-        clas: "Lunch"
-    },
-    {
-        id: 52,
-        content: "Orphaned squared",
-        name: "Ash",
-        clas: "SOS?"
-    },
-    {
-        id: 53,
-        content: "Ash x eiji",
-        name: "Iriz, Chole",
-        clas: "Sewing"
-    },
-    {
-        id: 54,
-        content: "Waterproof phone",
-        name: "Iriz, Chole",
-        clas: "Science"
-    },
-    {
-        id: 55,
-        content: "I shouldn't turn the other way on the bus cause...",
-        name: "Iriz",
-        clas: "Bus"
-    },
-    {
-        id: 56,
-        content: "Like a dino",
-        name: "App - Ash",
-        clas: "Lunch"
-    },
-    {
-        id: 57,
-        content: "I get you good vodka",
-        name: "Ash",
-        clas: "Maths"
-    },
-    {
-        id: 58,
-        content: "Are you pregnant?",
-        name: "Iriz mum",
-        clas: "Iriz house"
-    },
-    {
-        id: 59,
-        content: "Pretty comes with a price",
-        name: "Iriz",
-        clas: "Lunch"
-    },
-    {
         id: 60,
         content: "Finger waggle of shame",
         name: "Ash",
@@ -990,6 +930,66 @@ export const data = [
         content: "oh my god we're so cool - streached a box",
         name: "Chole",
         clas: "Inglish"
+    },
+    {
+        id: 156,
+        content: "Pink hair",
+        name: "Iriz",
+        clas: "Lunch"
+    },
+    {
+        id: 157,
+        content: "yaaaassssss queeen",
+        name: "Quail, Chole",
+        clas: "Lunch"
+    },
+    {
+        id: 158,
+        content: "Orphaned squared",
+        name: "Ash",
+        clas: "SOS?"
+    },
+    {
+        id: 159,
+        content: "Ash x eiji",
+        name: "Iriz, Chole",
+        clas: "Sewing"
+    },
+    {
+        id: 160,
+        content: "Waterproof phone",
+        name: "Iriz, Chole",
+        clas: "Science"
+    },
+    {
+        id: 161,
+        content: "I shouldn't turn the other way on the bus cause...",
+        name: "Iriz",
+        clas: "Bus"
+    },
+    {
+        id: 162,
+        content: "Like a dino",
+        name: "App - Ash",
+        clas: "Lunch"
+    },
+    {
+        id: 163,
+        content: "I get you good vodka",
+        name: "Ash",
+        clas: "Maths"
+    },
+    {
+        id: 164,
+        content: "Are you pregnant?",
+        name: "Iriz mum",
+        clas: "Iriz house"
+    },
+    {
+        id: 165,
+        content: "Pretty comes with a price",
+        name: "Iriz",
+        clas: "Lunch"
     },
 ]
 
