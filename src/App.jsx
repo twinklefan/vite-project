@@ -1,7 +1,8 @@
 import React from "react"
-import 'App.css'
-import Card from 'Card.jsx';
-import { data } from 'data'
+import Card from './Card';
+import {data} from './data'
+
+import './App.css'
 
 export default function App() {
   const cards = data.map(item => {
@@ -13,8 +14,8 @@ export default function App() {
               clas={item.clas}
           />
       )
-  })        
-  
+  })
+
   return (
     <div>
       <header>
